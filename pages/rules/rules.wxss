@@ -1,0 +1,26 @@
+/* pages/rules.wxss */
+
+.rules-module {
+    padding: 8%;
+    width: 100%;
+    box-sizing: border-box;
+
+    background-color: #c12f18;
+
+
+    color: #ecd6ad;
+}
+
+.dl {
+    font-size: 14px;
+    padding-top: 24px;
+}
+
+.dt {
+    line-height: 32px;
+}
+
+.dd {
+    word-wrap: break-word;
+    line-height: 24px;
+}

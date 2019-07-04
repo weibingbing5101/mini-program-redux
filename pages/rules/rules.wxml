@@ -1,0 +1,16 @@
+<view class="rules-module">
+    <view class="rule-tit">
+        <view class="line"></view>
+        <view>红包领取规则</view>
+        <view class="line"></view>
+    </view>
+    <view class="dl">
+        <view>红包规则</view>
+        <view>
+            1.新用户点击红包链接后，首次参与活动需进行微信端授权，然后跳转到该页面；
+        </view>
+        <view>
+            2.该页面的注册规则与现在的红包规则保持一致，但无法修改登录手机号，点击“点击领取红包”进入对应的红包页面；
+        </view>
+    </view>
+</view>

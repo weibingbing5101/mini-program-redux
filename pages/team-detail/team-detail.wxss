@@ -1,0 +1,227 @@
+.reg-phone-module {
+    padding: 4% 8%;
+    /* height: 100%; */
+    width: 100%;
+    background-color: #c12f18;
+    padding-top: 30rpx;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* // .title-desc {} */
+
+
+/* // 表单 手机号  验证码  领取 */
+
+.title-desc .logo {
+    margin: 0 auto;
+    width: 191rpx;
+    height: 76rpx;
+    background-size: cover;
+    background-position: top center;
+}
+
+.title-desc .kcash-logo {
+    background-image: url('../../images/logo.png');
+}
+
+.title-desc .abtc-logo {
+    width: 246rpx;
+    background-image: url('../../images/abtc-bg.png');
+}
+
+.title-desc .abao-logo {
+    width: 176rpx;
+    background-image: url('../../images/abao-bg.png');
+}
+
+.title-desc .act-logo {
+    width: 206rpx;
+    background-image: url('../../images/act-bg.png');
+}
+
+.title-desc .gcc-logo {
+    width: 292rpx;
+    height: 90rpx;
+    background-image: url('../../images/gym-bg.png');
+}
+
+.title-desc .text {
+    display: block;
+    height: auto;
+    line-height: auto;
+    margin-top: 32rpx;
+}
+
+.title-desc .text image {
+    display: block;
+    max-width: 560rpx;
+    max-height: 170rpx;
+    margin: 0 auto;
+}
+
+
+.title-desc .background-label {
+    /* // overflow: hidden; */
+    margin: 0 auto;
+    margin-top: 16rpx;
+    position: relative;
+    height: 140rpx;
+}
+
+
+.title-desc .background-label view {
+    position: absolute;
+    top: 24rpx;
+    color: #bf3415;
+    z-index: 99;
+    font-size: 30rpx;
+    left: 55rpx;
+    font-weight: 600;
+}
+
+
+.title-desc .background-label image {
+    max-width: 600rpx;
+    width: 90%;
+    position: absolute;
+    bottom: -16rpx;
+    left: 52%;
+    transform: translateX(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+/* .content-form {} */
+
+
+/* // 活动规则 */
+
+.content-form .input-box {
+    margin-bottom: 32rpx;
+    border-radius: 8rpx;
+    overflow: hidden;
+
+
+    /*  ::-webkit-input-placeholder {
+        font-size: .26rpx;
+        color: #d3d3d3;
+    }
+     :-moz-placeholder {
+        font-size: .26rpx;
+        color: #d3d3d3;
+    }
+     ::-moz-placeholder {
+        font-size: .26rpx;
+        color: #d3d3d3;
+    }
+     :-ms-input-placeholder {
+        font-size: .26rpx;
+        color: #d3d3d3;
+    } */
+}
+
+.content-form .input-box input {
+    height: 90rpx;
+    padding: 16rpx;
+    width: 100%;
+    /* line-height: 90rpx; */
+    background-color: #ffffff;
+    font-size: 26rpx;
+}
+
+
+
+
+
+
+
+/* // 定位用的  图形码  获取验证码 */
+
+.content-form .input-box-position {
+    position: relative;
+}
+
+.content-form .input-box-position .img-code {
+    width: 160rpx;
+    height: 60rpx;
+    position: absolute;
+    top: 16rpx;
+    right: 16rpx;
+    border-radius: 4rpx;
+    border: 1px solid #e0dcdd;
+}
+
+.content-form .input-box-position .get-code {
+    width: 180rpx;
+    height: 90rpx;
+    line-height: 90rpx;
+    text-align: center;
+    color: #c12f18;
+    background-color: #ecd6ad;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: inline-block;
+}
+
+.content-form .input-box-position .get-code-disable {
+    background-color: #ccc;
+    color: #fff;
+}
+
+
+
+
+
+
+/* // 领取红包  提交按钮 */
+
+.content-form .submit-btn {
+    margin-top: 48rpx;
+    border-radius: 8rpx;
+    background-color: #f9d22d;
+    color: #c12f18;
+    height: 96rpx;
+    line-height: 96rpx;
+    text-align: center;
+    font-size: 34rpx;
+}
+
+
+
+
+.rule-box {
+    margin-top: 80rpx;
+    color: #ecd6ad;
+}
+
+.dl {
+    padding-top: 48rpx;
+    font-size: 28rpx;
+}
+
+.dt {
+    line-height: 60rpx;
+}
+
+.dd {
+    line-height: 40rpx;
+    word-wrap: break-word
+}

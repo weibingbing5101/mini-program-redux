@@ -1,0 +1,55 @@
+/* 魏兵兵 2018-4-27 标题的东西  两边线 中间文字  不要改乱东西，改之前联系我哦！！  */
+
+.rule-tit {
+    font-size: 32rpx;
+    text-align: center;
+    position: relative;
+}
+
+.rule-tit view {
+    display: inline-block;
+}
+
+.rule-tit .line {
+    height: 0px;
+    border-bottom: 1px solid #d67f5f;
+    width: 190rpx;
+    margin-bottom: 10rpx;
+}
+
+.rule-tit view:first-child {
+    margin-right: 30rpx;
+    /* left: 30px; */
+}
+
+.rule-tit view:last-child {
+    margin-left: 30rpx;
+    /* right: 30px; */
+}
+
+
+
+
+
+
+
+
+
+/* 按钮loading 状态 */
+
+.submitting {
+    background-color: #ccc!important;
+    color: #818181!important;
+}
+
+
+
+/* input {
+    border: 0;
+    box-shadow: none;
+} */
+
+
+/* input:focus {
+    border: none;
+} */

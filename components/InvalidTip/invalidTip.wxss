@@ -1,0 +1,54 @@
+.comp-invalid-tip{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+}
+.comp-invalid-tip .img{
+    position: absolute;
+    top: 150rpx;
+    left: 50rpx;
+    width: 650rpx;
+    height: 872rpx;
+
+    background-size: 100%;
+}
+
+
+.comp-invalid-tip .tip{
+    padding: 300rpx 64rpx 0;
+    color: #f9d22d;
+    font-size: 38rpx;
+    text-align: center;
+}
+
+.comp-invalid-tip .qrcode{
+    position: absolute;
+    display: block;
+    width: 160rpx;
+    height: 160rpx;
+    left: 248rpx;
+    bottom: 130rpx;
+}
+
+.go-page{
+    position: absolute;
+    bottom: 390rpx;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.go-page .link{
+    width: 150rpx;
+    line-height: 60rpx;
+    border-radius: 10rpx;
+    border: 1px solid #f9d22d;
+    color: #f9d22d;
+    padding: 0 10rpx;
+    margin: 0 15rpx;
+    display: inline-block;
+    font-size: 28rpx;
+}

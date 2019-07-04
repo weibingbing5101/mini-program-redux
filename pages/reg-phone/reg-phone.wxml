@@ -1,0 +1,38 @@
+<!--pages/system-detail/team-detail.wxml-->
+<view class="reg-phone-module">
+    <view class="title-desc">
+        <view :class="'logo '+ (symbol ? symbol.toLowerCase() +'-logo' : 'kcash-logo')">
+        </view>
+        <view class="text">
+            <image src="../../images/text.png" />
+        </view>
+        <view class="background-label">
+            <view class="span">{{startTime}}-{{endTime}} 每天瓜分五百万</view>
+            <image src="../../images/background-label.png" />
+        </view>
+    </view>
+    <view class="content-form">
+        <view class="input-box">
+            <input type="number" name="phoneNmu" placeholder="请输入手机号" bindinput="phoneChange" value="{{form.phone}}" />
+        </view>
+        <view class="input-box input-box-position">
+            <input type="text" name="imgCode" placeholder="请输入图形验证码" bindinput="imgCodeChange" value="{{form.code}}" />
+            <image src="{{imgCodeSrc}}" alt="" class="img-code" bind:tap="changeCode" />
+        </view>
+        <view class="input-box input-box-position">
+            <input type="number" name="phoneNmuAgin" placeholder="请输入手机验证码" bindinput="phoneCodeChange" />
+            <view class="get-code" bind:tap="getverifycode" wx:if="{{codeTimer===0}}">获取验证码</view>
+            <block wx:else>
+                <view class="get-code get-code-disable">{{codeTimer}}S后重新获取</view>
+            </block>
+        </view>
+        <view class="submit-btn" bind:tap="submit" wx:if="{{!isSubmitting}}">
+            领取红包
+        </view>
+        <block wx:else>
+            <view class="submit-btn submitting">
+                红包领取中...
+            </view>
+        </block>
+    </view>
+</view>

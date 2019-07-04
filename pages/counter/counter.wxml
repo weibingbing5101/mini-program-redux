@@ -1,0 +1,18 @@
+<view class="counter-module">
+    <view>
+        <view>
+            start_time: {{ start_time }}
+        </view>
+        <view>
+            reward_max: {{ reward_max }}
+        </view>
+        <view>
+            ==============================================
+        </view>
+        <view>
+            name: {{ name }}
+        </view>
+        <view bind:tap="increase">+++</view>
+        <view bind:tap="decrease">---</view>
+    </view>
+</view>

@@ -1,0 +1,34 @@
+<!--pages/system-detail/team-detail.wxml-->
+<view class="reg-phone-module">
+    <view class="title-desc">
+        <view :class="'logo '+ (symbol ? symbol.toLowerCase() +'-logo' : 'kcash-logo')">
+        </view>
+        <view class="text">
+            <image src="../../images/text.png" />
+        </view>
+        <view class="background-label">
+            <view class="span">{{startTime}}-{{endTime}} 每天瓜分五百万</view>
+            <image src="../../images/background-label.png" />
+        </view>
+    </view>
+    <view class="content-form">
+        <view class="input-box">
+            <input type="text" name="phoneNmu" placeholder="请输入手机号" v-model="form.phone" v-on:change="phoneChange" />
+        </view>
+        <view class="input-box input-box-position">
+            <input type="text" name="imgCode" placeholder="请输入图形验证码" v-model="form.code" />
+            <image :src="imgCodeSrc" alt="" class="img-code" v-on:click="changeCode" />
+        </view>
+        <view class="input-box input-box-position">
+            <input type="number" name="phoneNmuAgin" placeholder="请输入手机验证码" v-model="form.phoneCode" />
+            <view class="get-code" v-on:click="getverifycode" v-show="!codeTimer">获取验证码</view>
+            <view class="get-code get-code-disable" v-show="codeTimer">{{codeTimer}}S后重新获取</view>
+        </view>
+        <view class="submit-btn" v-on:click="submit" v-show="!isSubmitting">
+            领取红包
+        </view>
+        <view class="submit-btn submitting" v-show="isSubmitting">
+            红包领取中...
+        </view>
+    </view>
+</view>

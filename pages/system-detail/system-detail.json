@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "dialog": "/components/Dialog/dialog",
+    "invalid-tip":"/components/InvalidTip/invalidTip"
+  }
+}

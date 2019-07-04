@@ -1,0 +1,45 @@
+<!--pages/system-detail/system-detail.wxml-->
+
+<!--<view class="container">-->
+    <!--<dialog id='dialog'-->
+            <!--title='我是标题'-->
+            <!--content='恭喜你，学会了小程序组件'-->
+            <!--cancelText='知道了'-->
+            <!--confirm='谢谢你'-->
+            <!--bind:cancelEvent="_cancelEvent"-->
+            <!--bind:confirmEvent="_confirmEvent">-->
+    <!--</dialog>-->
+
+    <!--<button type="primary" bindtap="showDialog"> ClickMe! </button>-->
+<!--</view>-->
+
+
+
+<view class="page-system-detail">
+    <image class="bg" src="../../images/fission-detail-p-bg.png" mode="widthFix"></image>
+    <view class="total">
+        <view class="total-text">{{total}}W</view>
+    </view>
+
+    <view class="right-btn">
+        <button class="btn" bind:tap="goToRules">规则</button>
+        <button class="btn" bind:tap="goToList">我的红包</button>
+    </view>
+
+    <view class="tip-center">
+        {{targetCount}}人红包急速拼抢中，还差<text class="tip-center-em">{{restCount}}人</text>即可拆包！
+    </view>
+    <view class="btn-group">
+        <button class="btn btn-share" open-type="share">分享红包</button>
+        <button class="btn btn-create" bind:tap="createTeamPacket">我来开团抢红包</button>
+    </view>
+    <view class="qrcode">
+        <image src="../../images/kcash-qrcode.jpg" alt="" class="img"></image>
+    </view>
+    <view class="tip-footer">
+    </view>
+</view>
+
+<invalid-tip id='invalidTip'
+             sharecode="{{sharecode}}"
+             content="{{invalidTipContent}}"></invalid-tip>
