@@ -16,7 +16,7 @@
 
 ### 原理图如下
 
-![MacDown logo](https://github.com/bailicangdu/pxq/raw/master/screenshot/simple_redux.jpg)
+![MacDown logo](./simple_redux.jpg)
 
 ### 应用场景
 * 多个组件共享同一状态情况下
