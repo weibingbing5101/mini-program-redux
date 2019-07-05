@@ -1,8 +1,7 @@
-// const URI = 'https://api.kcash.com';
-const URI = 'http://invite.test-kcash.com';
+const URI = 'http://invite.test-xxxx.com';
 const fetch = require('./fetch')
 
-function fetchApi (type, params) {
+function fetchApi(type, params) {
     return fetch(URI, type, params)
 }
 
@@ -58,7 +57,7 @@ function joinredpacket(param = {}) {
 /**
  * 创建红包
  * */
-function createredpacket(param = {}){
+function createredpacket(param = {}) {
     return fetchApi('/api/createredpacket', param).then(res => res.data)
 }
 

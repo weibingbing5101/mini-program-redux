@@ -30,7 +30,7 @@
     background-position: top center;
 }
 
-.title-desc .kcash-logo {
+.title-desc .logo {
     background-image: url('../../images/logo.png');
 }
 

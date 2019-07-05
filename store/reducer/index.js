@@ -1,4 +1,5 @@
-// 一个reducer
+// 这是一个 initstate 状态
+// reducer 主要是操作 store.state  是一个同步函数   只能在此处操作state
 function user(state = { name: 0 }, action) {
     switch (action.type) {
         case 'CHANGE_USER_NAME':

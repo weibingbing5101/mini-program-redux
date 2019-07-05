@@ -14,3 +14,10 @@ var rootReducer = combineReducers({
 const store = createStore(rootReducer)
 
 export { store };
+
+
+// return {
+//     dispatch,
+//     getState,
+//     sub
+// }

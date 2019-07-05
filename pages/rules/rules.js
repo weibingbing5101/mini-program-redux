@@ -9,7 +9,7 @@ Page({
      */
     data: {
         start_time: '2018-04-29 22:00:00',
-        reward_max: '200KCASH+100ACT+400ABAO+400ABTC+200GCC',
+        reward_max: '200个',
         symbol: '',
     },
 

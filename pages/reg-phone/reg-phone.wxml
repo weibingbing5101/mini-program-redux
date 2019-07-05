@@ -1,7 +1,7 @@
 <!--pages/system-detail/team-detail.wxml-->
 <view class="reg-phone-module">
     <view class="title-desc">
-        <view :class="'logo '+ (symbol ? symbol.toLowerCase() +'-logo' : 'kcash-logo')">
+        <view :class="'logo '+ (symbol ? symbol.toLowerCase() +'-logo' : 'logo')">
         </view>
         <view class="text">
             <image src="../../images/text.png" />

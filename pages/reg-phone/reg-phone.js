@@ -22,7 +22,7 @@ Page({
         isGetPhoneCode: true, // 可以获得手机验证码
 
         // 红包说明
-        reward_max: '200KCASH+100ACT+400ABAO+400ABTC+200GCC', // 最大可获得
+        reward_max: '200个', // 最大可获得
         symbol: '', // 代币标识
         start_time: '2018-04-29 22:00:00',
         startTime: '4.29',

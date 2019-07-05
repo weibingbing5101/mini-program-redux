@@ -1,7 +1,7 @@
 <view class="comp-invalid-tip" hidden="{{!isShow}}">
     <view class="img" style='background-image: url("../../images/invalid.png");'>
         <view class="tip">{{content}}</view>
-        <image class="qrcode" src="../../images/kcash-qrcode.jpg"></image>
+        <image class="qrcode" src="../../images/qrcode.jpg"></image>
         <view class="go-page">
             <view class="link" bind:tap="goToRules">查看规则</view>
             <view class="link" bind:tap="goToList">红包列表</view>
