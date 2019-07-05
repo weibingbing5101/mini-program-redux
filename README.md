@@ -23,3 +23,8 @@
 * 同级组件或嵌套层级过深组件间的通信
 * 适用于大部分使用发布订阅设计模式的地方
 
+### 附带一篇优秀文章 react+redux 
+
+[传送门](https://github.com/bailicangdu/react-pxq)
+
+
